@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="br.com.loyaltyscience.loysci_android">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_INTERNAL_STORAGE" />
+
+    <application
+        android:name="br.com.loyaltyscience.loysci_android.MyApplication"
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name="br.com.loyaltyscience.loysci_android.presentation.ui.activities.BadgesActivity"
+            android:launchMode="singleTop"
+            android:screenOrientation="portrait"
+            />
+
+        <meta-data
+            android:name="io.fabric.ApiKey"
+            android:value="8f0b9b376b05d4769fa84dedf0be7099eac47823" />
+
+        <activity
+            android:name="br.com.loyaltyscience.loysci_android.presentation.ui.activities.SplashActivity"
+            android:label="@string/app_name"
+            android:launchMode="singleTop"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="br.com.loyaltyscience.loysci_android.presentation.ui.activities.LoginActivity"
+            android:label="@string/app_name"
+            android:launchMode="singleTop"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="br.com.loyaltyscience.loysci_android.presentation.ui.activities.MainActivity"
+            android:label="@string/app_name"
+            android:launchMode="singleTop"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="br.com.loyaltyscience.loysci_android.presentation.ui.activities.NotificationsActivity"
+            android:launchMode="singleTop"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="br.com.loyaltyscience.loysci_android.presentation.ui.activities.EditAddressActivity"
+            android:launchMode="singleTop"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="br.com.loyaltyscience.loysci_android.presentation.ui.activities.ProfileActivity"
+            android:label="@string/app_name"
+            android:launchMode="singleTop"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="br.com.loyaltyscience.loysci_android.presentation.ui.activities.ChangePasswordActivity"
+            android:launchMode="singleTop"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="br.com.loyaltyscience.loysci_android.presentation.ui.activities.PromotionDetailActivity"
+            android:launchMode="singleTop"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="br.com.loyaltyscience.loysci_android.presentation.ui.activities.UpdateDriversLicenseActivity"
+            android:launchMode="singleTop"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="br.com.loyaltyscience.loysci_android.presentation.ui.activities.QuizActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="br.com.loyaltyscience.loysci_android.presentation.ui.activities.ActivitiesActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="br.com.loyaltyscience.loysci_android.presentation.ui.activities.MissionActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="br.com.loyaltyscience.loysci_android.presentation.ui.activities.RegulationsActivity"
+            android:launchMode="singleTop"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="br.com.loyaltyscience.loysci_android.presentation.ui.activities.CartaoActivity"
+            android:launchMode="singleTop"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="br.com.loyaltyscience.loysci_android.presentation.ui.activities.SliderHome"
+            android:launchMode="singleTop"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="br.com.loyaltyscience.loysci_android.presentation.ui.activities.VoucherActivity"
+            android:launchMode="singleTop"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="br.com.loyaltyscience.loysci_android.presentation.ui.activities.CartActivity"
+            android:launchMode="singleTop"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="br.com.loyaltyscience.loysci_android.presentation.ui.activities.RegisterProfileActivity"
+            android:launchMode="singleTop"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="br.com.loyaltyscience.loysci_android.presentation.ui.activities.RegisterPasswordActivity"
+            android:launchMode="singleTop"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="br.com.loyaltyscience.loysci_android.presentation.ui.activities.RegisterConditionsActivity"
+            android:launchMode="singleTop"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="br.com.loyaltyscience.loysci_android.presentation.ui.activities.AvatarActivity"
+            android:launchMode="singleTop"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="br.com.loyaltyscience.loysci_android.DoneAvatarActivity"
+            android:screenOrientation="portrait" />
+    </application>
+
+</manifest>
