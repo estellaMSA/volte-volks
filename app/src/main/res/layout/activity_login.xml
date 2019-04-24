@@ -34,7 +34,7 @@
                 android:layout_marginTop="80dp"
                 android:scaleType="fitCenter"
                 android:adjustViewBounds="true"
-                android:src="@drawable/volte_volks" />
+                android:src="@drawable/movida_move_voce" />
 
             <android.support.design.widget.TextInputLayout
                 android:id="@+id/til_username"

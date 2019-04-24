@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <color name="colorPrimary">#d2631c</color>
-    <color name="colorPrimaryDark">#c03c26</color>
-    <color name="colorPrimaryLight">#e65100</color>
+    <color name="colorPrimary">#294884</color>
+    <color name="colorPrimaryDark">#294884</color>
+    <color name="colorPrimaryLight">#294884</color>
     <color name="provincialPink">#fefaf7</color>
-    <color name="colorAccent">#1d4b77</color>
+    <color name="colorAccent">#294884</color>
     <color name="light_grey">#7C8387</color>
     <color name="message_secondary">#61000000</color>
     <color name="light_grey3">#e3e3e3</color>
@@ -23,7 +23,7 @@
 
     <!--SeekBar profile-->
     <color name="inactive">#612a4454</color>
-    <color name="white">#FFFFFF</color>
+    <color name="white">#ffffff</color>
     <!--GRAY-->
     <color name="md_grey_100">#ACB1B3</color>
 
@@ -39,13 +39,13 @@
 
     <!--RED-->
     <color name="md_red_600">#E53935</color>
-    <color name="md_red_900">#B71C1C</color>
+    <color name="md_red_900">#658CDA</color>
 
     <!--GREEN-->
     <color name="positive_points">#16a085</color>
     <color name="confirm_color">#81b518</color>
-    <color name="red_button">#d2552a</color>
-    <color name="gold_yellow">#f09604</color>
+    <color name="red_button">#294884</color>
+    <color name="gold_yellow">#658CDA</color>
     <color name="light_text">#ffc29b</color>
     <color name="fixed_field_background">#f5f1ed</color>
     <color name="fixed_field_text_color">#61263238</color>

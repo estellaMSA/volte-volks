@@ -21,7 +21,7 @@
             android:layout_marginStart="48dp"
             android:layout_marginBottom="200dp"
             android:scaleType="fitCenter"
-            android:src="@drawable/volte_volks"
+            android:src="@drawable/movida_move_voce"
             android:adjustViewBounds="true"
             app:layout_constraintTop_toTopOf="parent"
             app:layout_constraintBottom_toBottomOf="parent"
