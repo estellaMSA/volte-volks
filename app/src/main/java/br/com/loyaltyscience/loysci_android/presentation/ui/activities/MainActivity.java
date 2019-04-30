@@ -6,6 +6,7 @@ import android.databinding.DataBindingUtil;
 import android.os.Bundle;
 import android.os.Handler;
 import android.support.design.widget.Snackbar;
+import android.support.v4.app.Fragment;
 import android.support.v4.app.FragmentManager;
 import android.support.v4.content.ContextCompat;
 import android.support.v7.app.AlertDialog;
@@ -29,6 +30,7 @@ import br.com.loyaltyscience.loysci_android.model.Points;
 import br.com.loyaltyscience.loysci_android.model.Profile;
 import br.com.loyaltyscience.loysci_android.model.Progress;
 import br.com.loyaltyscience.loysci_android.presentation.ui.fragments.HomeFragment;
+import br.com.loyaltyscience.loysci_android.presentation.ui.fragments.NotificationsFragment;
 import br.com.loyaltyscience.loysci_android.presentation.ui.listeners.ViewModelSimpleCallback;
 import br.com.loyaltyscience.loysci_android.presentation.ui.presenters.MainActivityPresenter;
 import br.com.loyaltyscience.loysci_android.presentation.ui.viewModels.MainViewModel;
@@ -213,9 +215,9 @@ public class MainActivity extends AppCompatActivity implements HomeFragment.Home
 
     private void setupPoints() {
         binding.txtPoints.setText(getString(R.string.points_count));
-        binding.txtPointsCount.setText(String.valueOf(Math.round(model.points.getDisponible())));
-        if (model.points.getVencido() > 0)
-            binding.txtExpire.setText(getString(R.string.points_to_expire, String.valueOf(Math.round(model.points.getVencido()))));
+        //binding.txtPointsCount.setText(String.valueOf(Math.round(model.points.getDisponible())));
+        //if (model.points.getVencido() > 0)
+            //binding.txtExpire.setText(getString(R.string.points_to_expire, String.valueOf(Math.round(model.points.getVencido()))));
     }
 
 
@@ -311,9 +313,9 @@ public class MainActivity extends AppCompatActivity implements HomeFragment.Home
             }
         }
         if (unreadCounter > 0) {
-            binding.imgNotificationBall.setVisibility(View.VISIBLE);
+            //binding.imgNotificationBall.setVisibility(View.VISIBLE);
         } else {
-            binding.imgNotificationBall.setVisibility(View.GONE);
+            //binding.imgNotificationBall.setVisibility(View.GONE);
         }
     }
 
@@ -332,16 +334,17 @@ public class MainActivity extends AppCompatActivity implements HomeFragment.Home
             case HOME_SALES:
                 binding.mainViewPager.setCurrentItem(TAB_SALES);
                 break;
-
+/*
             case HOME_REGULAMENTO:
-                startActivity(new Intent(this, RegulationsActivity.class));
+                //startActivity(new Intent(this, RegulationsActivity.class));
+                //startActivity(new Intent(this, NotificationsFragment.class));
+                binding.mainViewPager.setCurrentItem(TAB_EXTRACT);
                 break;
-
 
             case HOME_CARTAO_VIRTUAL:
                 startActivity(new Intent(this, CartaoActivity.class));
                 break;
-
+*/
             case HOME_PERSONAL_DATA_OPTION:
                 if (model.finishedLoading) {
                     Intent intent = new Intent(this, ProfileActivity.class);
@@ -357,7 +360,7 @@ public class MainActivity extends AppCompatActivity implements HomeFragment.Home
                     startActivityForResult(intent, UPDATE_ADDRESS);
                 }
                 break;
-
+/*
             case HOME_CHANGE_PASS_OPTION:
                 if (model.finishedLoading) {
                     Intent intent = new Intent(this, ChangePasswordActivity.class);
@@ -372,7 +375,7 @@ public class MainActivity extends AppCompatActivity implements HomeFragment.Home
                     startActivityForResult(updateLicense, UPDATE_LICENSE);
                 }
                 break;
-
+*/
             case HOME_BADGES:
                 startActivity(new Intent(this, BadgesActivity.class));
                 break;
@@ -388,20 +391,21 @@ public class MainActivity extends AppCompatActivity implements HomeFragment.Home
     @Override
     public void onClick(View v) {
         switch (v.getId()) {
-            case R.id.notificationLayout:
-                if (model.finishedLoading) {
-                    Intent intent = new Intent(MainActivity.this, NotificationsActivity.class);
-                    intent.putParcelableArrayListExtra(NOTIFICATIONS_PARCELABLE, new ArrayList<>(model.notifications));
-                    startActivity(intent);
-                }
-                break;
-
             case R.id.cartLayout:
                 if (model.finishedLoading) {
                     Intent intent = new Intent(MainActivity.this, CartActivity.class);
                     startActivity(intent);
                 }
                 break;
+
+                //case R.id.notificationLayout:
+                //if (model.finishedLoading) {
+                    //Intent intent = new Intent(MainActivity.this, NotificationsActivity.class);
+                    //intent.putParcelableArrayListExtra(NOTIFICATIONS_PARCELABLE, new ArrayList<>(model.notifications));
+                    //startActivity(intent);
+                //}
+                //break;
+
         }
     }
 

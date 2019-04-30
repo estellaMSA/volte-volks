@@ -1,16 +1,17 @@
 <resources>
-    <string name="app_name">Movida Move Você</string>
+    <string name="app_name">VOLTE VOLKS</string>
     <string name="title_my_address">Meu endereço</string>
-    <string name="personal_info">Dados\npessoais</string>
-    <string name="take_your_prize">Resgate seus\nprêmios</string>
+    <string name="personal_info">Meu\nCarro</string>
+    <string name="take_your_prize">Meus \nPrêmios</string>
     <string name="home_regulamento">Regulamento</string>
     <string name="home_cartaovirtual">Cartão Digital</string>
     <string name="sales">Promoções\n </string>
     <string name="user_address">Meu endereço\n </string>
     <string name="change_password">Alterar minha\nsenha</string>
     <string name="drivers_license">Carteira de\nhabilitação</string>
-    <string name="participate_and_win">Participe e ganhe</string>
-    <string name="my_badges">Minhas Medalhas</string>
+    <string name="participate_and_win">Minhas Missões</string>
+    <string name="my_badges">Minhas Insígnias</string>
+    <string name="meu_diariodebordo">Meu Diário de Bordo</string>
 
     <string name="valor">%d Pontos</string>
     <string name="points">%d Pontos</string>
@@ -20,7 +21,7 @@
     <string name="failed_change_pass">Não foi possível alterar sua senha!</string>
     <string name="wrong_pass">Senha atual incorreta!</string>
     <string name="failed_load_promotions">Não foi possível carregar suas promoções!</string>
-    <string name="failed_load_extract">Não foi possível carregar o extrato!</string>
+    <string name="failed_load_extract">Não foi possível carregar as dicas e notícias!</string>
     <string name="failed_load_vouchers">Não foi possível carregar os vouchers!</string>
     <string name="failed_load_missions">Não foi possível carregar as missões! Tentando novamente…</string>
     <string name="failed_load">Falha ao carregar!</string>
@@ -47,7 +48,7 @@
     <string name="login_error">Erro ao realizar login</string>
     <string name="cpf_error">Por favor, insira um CPF válido</string>
     <string name="password_error">Por favor, insira a senha</string>
-    <string name="latest_notifications">Últimas notificações</string>
+    <string name="latest_notifications">Últimas Notícias</string>
     <string name="my_cart">Meu carrinho</string>
     <string name="sales_title">Promoções</string>
     <string name="current_pass">Senha atual</string>
@@ -66,13 +67,13 @@
     <string name="failed_update_license">Não foi possível atualizar sua CNH</string>
     <string name="token_expired">Seu login expirou</string>
 
-    <string name="name">Nome *</string>
-    <string name="last_name">Sobrenome *</string>
+    <string name="name">Nome do Carro*</string>
+    <string name="last_name">Nome do Dono *</string>
     <string name="e_mail">E-mail *</string>
     <string name="phone">Celular *</string>
     <string name="gender_required">Sexo *</string>
     <string name="gender">Sexo</string>
-    <string name="birthday_date">Data de nascimento *</string>
+    <string name="birthday_date">Data de Compra *</string>
 
     <string name="cancel">CANCELAR</string>
     <string name="save">SALVAR</string>
@@ -174,8 +175,8 @@
         <item>TO</item>
     </string-array>
 
-    <string name="extract">Extrato</string>
-    <string name="expired">Expirados</string>
+    <string name="extract">Dicas de Mecânico</string>
+    <string name="expired">Notícias</string>
     <string name="filter_by_date">Filtrar por data</string>
 
     <string name="seven_days">7 dias</string>
@@ -188,7 +189,7 @@
     <string name="available_since">Disponível a partir de </string>
     <string name="to">a</string>
     <string name="expired_on">Expirado em</string>
-    <string name="no_vouchers">Não há vouchers</string>
+    <string name="no_vouchers">Não há prêmios</string>
     <string name="no_vouchers_in_cart">Não há vouchers no carrinho</string>
     <string name="confirm_text_voucher">Você está a um passo de obter benefícios. Acesse o carrinho e finalize a troca dos pontos.</string>
     <string name="quantity_add_voucher_plural">%d unidades adicionadas</string>
@@ -210,7 +211,7 @@
 
     <string name="give_up">DESISTIR</string>
     <string name="exit_activity">SAIR</string>
-    <string name="loading_extract">Carregando extrato&#8230;</string>
+    <string name="loading_extract">Carregando dicas e notícias...&#8230;</string>
     <string name="continue_quiz">CONTINUAR</string>
     <string name="answer_quiz">Responder quiz</string>
     <string name="unable_to_load_quiz">Não foi possível iniciar seu quiz</string>

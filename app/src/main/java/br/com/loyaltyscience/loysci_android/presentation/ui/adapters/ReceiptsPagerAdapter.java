@@ -10,6 +10,8 @@ import android.view.ViewGroup;
 import br.com.loyaltyscience.loysci_android.R;
 import br.com.loyaltyscience.loysci_android.presentation.ui.fragments.ExpiredFragment;
 import br.com.loyaltyscience.loysci_android.presentation.ui.fragments.ExtractFragment;
+import br.com.loyaltyscience.loysci_android.presentation.ui.fragments.GamesFragment;
+import br.com.loyaltyscience.loysci_android.presentation.ui.fragments.NotificationsFragment;
 
 import static br.com.loyaltyscience.loysci_android.util.Constants.NUMBER_OF_RECEIPTS_TABS;
 import static br.com.loyaltyscience.loysci_android.util.Constants.TAB_EXPIRED;
@@ -35,7 +37,7 @@ public class ReceiptsPagerAdapter extends FragmentPagerAdapter {
             case TAB_EXTRACT:
                 return new ExtractFragment();
             case TAB_EXPIRED:
-                return new ExpiredFragment();
+                return new ExtractFragment();
             default:
                 return null;
         }

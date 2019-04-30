@@ -48,8 +48,8 @@ public class VouchersFragment extends Fragment {
         loadStateViewsHandler.setToastErrorStringResId(R.string.failed_load_vouchers);
 
         configVouchersAdapter();
-        configCategoriesFilterAdapter();
-        configPointsFilterAdapter();
+        //configCategoriesFilterAdapter();
+        //configPointsFilterAdapter();
 
         binding.ivDropdownArrow.setOnClickListener(v -> {
             rotateDropdownImage();
@@ -159,7 +159,7 @@ public class VouchersFragment extends Fragment {
     }
 
     public void setNewCategoriesListInAdapter(ArrayList<String> categories) {
-        categoriesFilterAdapter.setCategories(categories);
+        //categoriesFilterAdapter.setCategories(categories);
     }
 
     public void setLoadState(LoadState loadState){

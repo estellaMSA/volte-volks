@@ -57,10 +57,10 @@ public class ExtractFragment extends Fragment {
         viewModel = ViewModelProviders.of(getParentFragment()).get(ReceiptViewModel.class);
         binding.extractRefreshLayout.setOnRefreshListener(() -> viewModel.loadExtracts());
 
-        ExtractAdapter adapter = new ExtractAdapter(getContext());
-        binding.extractRecycler.setAdapter(adapter);
+        //ExtractAdapter adapter = new ExtractAdapter(getContext());
+        //binding.extractRecycler.setAdapter(adapter);
         binding.extractRecycler.setLayoutManager(new LinearLayoutManager(getContext()));
-        this.adapter = adapter;
+        //this.adapter = adapter;
 
         viewModel.getAllExtracts().observe(this, this::onExtractLoaded);
         viewModel.getIsLoading().observe(this, loadState -> loadStateViewsHandler.handleLoadState(loadState, !extracts.isEmpty()));

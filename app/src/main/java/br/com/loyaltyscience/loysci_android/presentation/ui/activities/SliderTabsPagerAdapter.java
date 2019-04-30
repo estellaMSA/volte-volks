@@ -20,6 +20,7 @@ public class SliderTabsPagerAdapter extends FragmentPagerAdapter {
     public Fragment getItem(int index) {
 
         switch (index) {
+
             case 0:
                 return new SliderHomeFragment();
             case 1:
@@ -32,8 +33,8 @@ public class SliderTabsPagerAdapter extends FragmentPagerAdapter {
                 return new SliderHomeFragment05();
             default:
                 return new SliderHomeFragment();
-        }
 
+        }
     }
     @Override
     public int getCount() {

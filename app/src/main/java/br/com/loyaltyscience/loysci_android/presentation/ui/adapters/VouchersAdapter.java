@@ -61,13 +61,13 @@ public class VouchersAdapter extends RecyclerView.Adapter<VouchersAdapter.MyView
         holder.binding.tvTitleVoucher.setText(reward.getEncabezadoArte());
 
         if (reward.getEncabezadoArte().toLowerCase().contains("zattini")) {
-            holder.binding.ivImageLogo.setImageDrawable(context.getDrawable(R.drawable.mini_logo_zattini));
+            holder.binding.ivImageLogo.setImageDrawable(context.getDrawable(R.drawable.volkswagen_logo));
             holder.binding.ivImageLogo.setVisibility(View.VISIBLE);
         } else if (reward.getEncabezadoArte().toLowerCase().contains("netshoes")) {
-            holder.binding.ivImageLogo.setImageDrawable(context.getDrawable(R.drawable.mini_logo_netshoes));
+            holder.binding.ivImageLogo.setImageDrawable(context.getDrawable(R.drawable.volkswagen_logo));
             holder.binding.ivImageLogo.setVisibility(View.VISIBLE);
         } else {
-            holder.binding.ivImageLogo.setImageDrawable(context.getDrawable(R.drawable.mini_logo_movida));
+            holder.binding.ivImageLogo.setImageDrawable(context.getDrawable(R.drawable.volkswagen_logo));
             holder.binding.ivImageLogo.setVisibility(View.VISIBLE);
         }
 

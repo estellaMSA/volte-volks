@@ -132,13 +132,13 @@ public class VoucherActivity extends AppCompatActivity {
         }
 
         if (voucher.getEncabezadoArte().toLowerCase().contains("zattini")) {
-            binding.ivImageLogo.setImageDrawable(getDrawable(R.drawable.mini_logo_zattini));
+            binding.ivImageLogo.setImageDrawable(getDrawable(R.drawable.volkswagen_logo));
             binding.ivImageLogo.setVisibility(View.VISIBLE);
         } else if (voucher.getEncabezadoArte().toLowerCase().contains("netshoes")) {
-            binding.ivImageLogo.setImageDrawable(getDrawable(R.drawable.mini_logo_netshoes));
+            binding.ivImageLogo.setImageDrawable(getDrawable(R.drawable.volkswagen_logo));
             binding.ivImageLogo.setVisibility(View.VISIBLE);
         } else {
-            binding.ivImageLogo.setImageDrawable(getDrawable(R.drawable.mini_logo_movida));
+            binding.ivImageLogo.setImageDrawable(getDrawable(R.drawable.volkswagen_logo));
             binding.ivImageLogo.setVisibility(View.VISIBLE);
         }
 

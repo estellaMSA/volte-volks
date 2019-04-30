@@ -57,8 +57,8 @@ public class VoucherFragmentPresenter {
                     context.setPlaceHolderVisibility(false);
 
                     if ((points == null || points.isEmpty()) && (category == null || category.isEmpty())) {
-                        getAllCategories(rewardList);
-                        getAllPoints(rewardList);
+                        //getAllCategories(rewardList);
+                        //getAllPoints(rewardList);
                     }
                 } else {
                     context.setNewVouchersListInAdapter(new ArrayList<>());
@@ -81,7 +81,7 @@ public class VoucherFragmentPresenter {
                 categories.add(reward.getSubencabezadoArte());
             }
         }
-        context.setNewCategoriesListInAdapter(categories);
+        //context.setNewCategoriesListInAdapter(categories);
     }
 
     private void getAllPoints(List<Reward> rewardList){

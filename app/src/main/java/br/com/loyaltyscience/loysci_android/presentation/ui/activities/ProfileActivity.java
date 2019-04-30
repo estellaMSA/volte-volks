@@ -270,7 +270,7 @@ public class ProfileActivity extends AppCompatActivity {
             datePickerDialog.getDatePicker().setMaxDate(System.currentTimeMillis());
             datePickerDialog.show();
         });
-        binding.imgTerms.setOnClickListener(v -> startActivity(new Intent(this, RegulationsActivity.class)));
+        //binding.imgTerms.setOnClickListener(v -> startActivity(new Intent(this, RegulationsActivity.class)));
 
     }
 

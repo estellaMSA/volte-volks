@@ -34,13 +34,13 @@ public class SplashActivity extends AppCompatActivity {
                     finish();
                     return;
                 }
-
+/*
                 if(!Prefs.isSliderHome()){
                     startActivity(new Intent(SplashActivity.this, SliderHome.class));
                     finish();
                     return;
                 }
-
+*/
                 startActivity(new Intent(SplashActivity.this, MainActivity.class));
                 finish();
 

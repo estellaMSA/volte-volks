@@ -78,7 +78,7 @@ public class MainActivityPresenter {
                     binding.mainTab.getTabAt(i).setIcon(R.drawable.ic_home);
                     break;
                 case 1:
-                    binding.mainTab.getTabAt(i).setIcon(R.drawable.ic_receipt);
+                    binding.mainTab.getTabAt(i).setIcon(R.drawable.ic_notifications);
                     break;
                 case 2:
                     binding.mainTab.getTabAt(i).setIcon(R.drawable.ic_store_bottom);

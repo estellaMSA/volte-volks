@@ -65,12 +65,12 @@ import retrofit2.converter.simplexml.SimpleXmlConverterFactory;
 public final class LoyaltyApi {
     //private static final String LOYALTY_SIGN_IN_API_BASE_URL = "https://idp.flecharoja.com/";
     //private static final String LOYALTY_API_BASE_URL = "https://api-loyalty.flecharoja.com/loyalty-api-client-test-movida/webresources/";
-    private static final String LOYALTY_SIGN_IN_API_BASE_URL = "https://idp-movida.loyaltysci.com";
-    private static final String LOYALTY_API_BASE_URL = "https://api-movida.loyaltysci.com/loyalty-api-client/webresources/";
-    private static final String LOYALTY_API_EXTERNAL_BASE_URL = "https://api-movida.loyaltysci.com/loyalty-api-external/webresources/";
+    private static final String LOYALTY_SIGN_IN_API_BASE_URL = "https://idp-brasil.loyaltysci.com";
+    private static final String LOYALTY_API_BASE_URL = "https://api-brasil.loyaltysci.com/loyalty-api-client/webresources/";
+    private static final String LOYALTY_API_EXTERNAL_BASE_URL = "https://api-brasil.loyaltysci.com/loyalty-api-external/webresources/";
     private static final String LOYALTY_API_BASE_URL_VOUCHER = "https://xml.movida.com.br/movida/";
-    private static final String LOYALTY_API_BASE_URL_MISSIONS = "https://movida-gameficacao-api.now.sh/";
-    private static final String LOYALTY_API_BASE_URL_SUBMIT = "https://movida-gameficacao-api.now.sh/";
+    private static final String LOYALTY_API_BASE_URL_MISSIONS = "https://demos-gameficacao-api.now.sh";
+    private static final String LOYALTY_API_BASE_URL_SUBMIT = "https://demos-gameficacao-api.now.sh";
     private static final String CLOUD_STORAGE_URL = "https://brcom-central-1.storage.oraclecloud.com/";
 
     private static final String LOYALTY_CEP = "http://cep.republicavirtual.com.br/";
@@ -202,8 +202,8 @@ public final class LoyaltyApi {
         Pair<String, String> loginInfo = Prefs.getLoginInfo();
         Map<String, String> params = new HashMap<String, String>();
 
-        params.put("client_id", "mobile");
-        params.put("client_secret", "d59ac9f6-a2ff-41b0-b14f-8c1958f72c62");//"client_secret", "962e3334-b8ae-41d5-9162-949332fc5445",
+        params.put("client_id", "loyalty-webpage");
+        params.put("client_secret", "6e70bd68-67e8-4b24-885f-3657c385e136");//"client_secret", "962e3334-b8ae-41d5-9162-949332fc5445",
         params.put("grant_type", "password");
         params.put("username", loginInfo.first);
         params.put("password", loginInfo.second);

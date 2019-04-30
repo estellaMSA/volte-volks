@@ -79,11 +79,11 @@
 
                     <ImageView
                         android:id="@+id/iv_image_logo"
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
+                        android:layout_width="55dp"
+                        android:layout_height="45dp"
                         app:layout_constraintStart_toStartOf="@id/tv_title_voucher"
                         app:layout_constraintTop_toBottomOf="@id/tv_title_voucher"
-                        tools:src="@drawable/mini_logo_movida" />
+                        tools:src="@drawable/volkswagen_logo" />
 
                 </android.support.constraint.ConstraintLayout>
 

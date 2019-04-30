@@ -8,8 +8,12 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 
+import com.bumptech.glide.Glide;
+import com.bumptech.glide.load.engine.DiskCacheStrategy;
+
 import br.com.loyaltyscience.loysci_android.R;
 import br.com.loyaltyscience.loysci_android.databinding.FragmentHomeBinding;
+import br.com.loyaltyscience.loysci_android.presentation.ui.activities.MainActivity;
 
 import static br.com.loyaltyscience.loysci_android.util.Constants.HOME_BADGES;
 import static br.com.loyaltyscience.loysci_android.util.Constants.HOME_CARTAO_VIRTUAL;
@@ -84,7 +88,7 @@ public class HomeFragment extends Fragment {
                 isClicked = true;
             }
         });*/
-
+/*
         binding.userPasswordLayout.setOnClickListener(v -> {
             if(!isClicked) {
                 mListener.onHomeOptionSelected(HOME_CHANGE_PASS_OPTION);
@@ -98,7 +102,7 @@ public class HomeFragment extends Fragment {
                 isClicked = true;
             }
         });*/
-
+/*
         binding.homeRegulamento.setOnClickListener(v -> {
             if(!isClicked) {
                 mListener.onHomeOptionSelected(HOME_REGULAMENTO);
@@ -111,7 +115,7 @@ public class HomeFragment extends Fragment {
                 mListener.onHomeOptionSelected(HOME_CARTAO_VIRTUAL);
                 isClicked = true;
             }
-        });
+        });*/
     }
 
     @Override
@@ -121,6 +125,7 @@ public class HomeFragment extends Fragment {
             isClicked = false;
         }
     }
+
 
     @Override
     public void onAttach(Context context) {

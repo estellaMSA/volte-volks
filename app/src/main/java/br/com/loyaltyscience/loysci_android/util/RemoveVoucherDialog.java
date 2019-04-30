@@ -58,7 +58,7 @@ public class RemoveVoucherDialog extends Dialog {
 //            binding.ivImgLogo.setVisibility(View.VISIBLE);
 //        }
 
-        binding.ivImgLogo.setImageDrawable(context.getDrawable(R.drawable.mini_logo_movida));
+        binding.ivImgLogo.setImageDrawable(context.getDrawable(R.drawable.volkswagen_logo));
         binding.ivImgLogo.setVisibility(View.VISIBLE);
 
 

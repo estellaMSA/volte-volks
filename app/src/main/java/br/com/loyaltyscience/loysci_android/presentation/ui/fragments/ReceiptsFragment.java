@@ -40,7 +40,7 @@ public class ReceiptsFragment extends Fragment implements View.OnClickListener {
             adapter = new ReceiptsPagerAdapter(getChildFragmentManager(), getContext());
             binding.receiptsViewPager.setAdapter(adapter);
             binding.receiptsTabLayout.setupWithViewPager(binding.receiptsViewPager);
-            binding.receiptsCalendarImage.setOnClickListener(this);
+            //binding.receiptsCalendarImage.setOnClickListener(this);
             viewModel.loadExtracts();
         }
     }

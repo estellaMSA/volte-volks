@@ -166,7 +166,6 @@
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
                             android:textSize="16sp"
-                            android:text="Aceito os termos do contrato e de privacidade da Movida Aluguel de Carros"
                             android:paddingHorizontal="30dp"
                             android:layout_marginTop="20dp"
                             android:layout_marginLeft="10dp"/>

@@ -48,7 +48,7 @@
                             android:layout_width="wrap_content"
                             android:layout_height="match_parent"
                             android:gravity="center_vertical"
-                            android:text="Dados pessoais"
+                            android:text="Meu Carro"
                             android:textColor="@color/white"
                             android:textSize="16sp"
                             android:layout_weight="1"/>

@@ -25,7 +25,7 @@
             app:layout_constraintHorizontal_weight="6"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent"
-            tools:text="" />
+            tools:text="TESTE" />
 
         <TextView
             android:id="@+id/extract_points"
@@ -37,7 +37,7 @@
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toEndOf="@id/extract_title"
             app:layout_constraintTop_toTopOf="@id/extract_title"
-            tools:text="" />
+            tools:text="teste aqui" />
 
         <LinearLayout
             android:id="@+id/extract_type_layout"
@@ -60,7 +60,7 @@
                 android:maxLines="1"
                 android:textSize="16sp"
                 android:textStyle="normal"
-                tools:text="" />
+                tools:text="TESTESTESTE" />
 
             <View
                 android:id="@+id/divider"
@@ -80,7 +80,7 @@
                 android:maxLines="1"
                 android:textSize="16sp"
                 android:textStyle="normal"
-                tools:text="" />
+                tools:text="TETETETETE" />
         </LinearLayout>
 
         <TextView
@@ -93,7 +93,7 @@
             android:textStyle="normal"
             app:layout_constraintStart_toStartOf="@id/extract_title"
             app:layout_constraintTop_toBottomOf="@id/extract_type_layout"
-            tools:text="" />
+            tools:text="TSTSTSTSTST" />
 
         <View
             android:layout_width="match_parent"

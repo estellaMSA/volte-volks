@@ -59,7 +59,8 @@
             android:name="br.com.loyaltyscience.loysci_android.presentation.ui.activities.ProfileActivity"
             android:label="@string/app_name"
             android:launchMode="singleTop"
-            android:screenOrientation="portrait" />
+            android:screenOrientation="portrait" >
+        </activity>
         <activity
             android:name="br.com.loyaltyscience.loysci_android.presentation.ui.activities.ChangePasswordActivity"
             android:launchMode="singleTop"
@@ -92,7 +93,8 @@
         <activity
             android:name="br.com.loyaltyscience.loysci_android.presentation.ui.activities.SliderHome"
             android:launchMode="singleTop"
-            android:screenOrientation="portrait" />
+            android:screenOrientation="portrait"
+            android:enabled="false"/>
         <activity
             android:name="br.com.loyaltyscience.loysci_android.presentation.ui.activities.VoucherActivity"
             android:launchMode="singleTop"
